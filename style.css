@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin-top: 50px;
+    height: 330px;
+    width: 330px;
+    border: 2px solid #67676729;
+    margin: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box:hover{
+    box-shadow: 3px 3px 7px 7px rgb(170, 169, 169);
+}
+.box1{
+    margin-top: 50px;
+    height: 330px;
+    width: 330px;
+    border: 2px solid #67676729;
+    margin: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box1:hover{
+    box-shadow: 3px 3px 7px 7px rgb(170, 169, 169);
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 70px 40px;
+    margin-left: 40px;
+}
+
+.navbar{
+    height: 50px;
+    font-size: 37pt;
+    font-weight: bold;
+    padding: 10px 70px;
+    border: 2px solid #7B7B7B29;
+    background-color: white;
+    box-shadow: 3px 3px 7px 7px rgb(170, 169, 169);
+}
+
+body{
+    background-color: #F7F7F7;
+}
+
+h2{
+    margin: 15px 20px;
+    color: #00A5EC;
+    text-align: left;
+}
+
+table th {
+    border: 2px solid #EDEDED;
+    width: 330px;  
+    border-radius:10px 10px 0px 0px ;
+}
+
+td{
+    font-size: large;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.dis{
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+
+.circle{
+    height: 40px;
+    width: 45px;
+    background-color: #00A5EC;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 30pt;
+    color: white;
+    position: relative;
+    right: 20px;
+    left: 0px;
+   text-decoration: none;
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: flex-end;
+    position: relative;
+    right: 80px;
+    text-decoration: none;
+}
+
+.text{
+    font-size: x-large;
+    margin: 15px 5px;
+}
+
+.parent{
+    filter:blur(5px);
+    background-color: #C2C2C2;
+
+}
+
+.addtask{
+    width:400px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #EDEDED;
+    position: relative;
+    /* top: -800px; */
+    left: 35%;
+    border-radius: 15px;
+}
+
+.plus{
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #EDEDED;
+    border-radius:15px 15px 0px 0px ;
+}
+
+button{
+    float:right;
+    position: relative;
+    right:30px;
+    top:10px;
+    color: white;
+    background-color: #00A5EC;
+    border: #00A5EC;
+    font-size: large;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .trip{
+    position: relative;
+    left:37%;
+    top: 80px;
+} */
+
+.back{
+    height:40px;
+    width:40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20pt;
+    text-align: center;
+    padding: 10px;
+}
+
+.new{
+    height:40px;
+    width:40px;
+    background-color: #00A5EC;
+    color: white;
+    border-radius: 50%;
+    font-size: 20pt;
+    text-align: center;
+    padding: 15px;
+}
+
+.third-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.index3{
+    filter:blur(5px);
+    background-color: #C2C2C2;
+}
+
+.ax{
+    width:400px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #EDEDED;
+    /* position: relative;
+    left: 35%;
+    top:-270px; */
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .add{
+        position: relative;
+        right: 190px;
+    }
+    .text{
+        display: none;
+    }
+    .mainbox{
+        padding: 0;
+        width: 400px;
+    }
+    .box{
+        margin-top: 0;
+    }
+    .box1{
+        display: none;
+    }
+    .addtask{
+        position: relative;
+        left: 50px;
+        bottom: 1000px;
+    }
+    .ant{
+        display: none;
+    }
+    .trip{
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .ax{
+        position: relative;
+        bottom: 300px;
+        left: 30px;
+    }
+  }
+  
